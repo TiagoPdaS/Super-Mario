@@ -4,12 +4,29 @@
     box-sizing: border-box;
 }
 body{
-    display:flex;
+    height: 100vh;
+}
+.caixa-mae{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+    
+}
+.caixa-principal{
+width: 40%;
 }
 .logo-mario{
     height: 180px;
 }
 
+
+button{
+    align-items: center;
+    justify-content: center;
+margin: 25px 0 0 0  ;
+}
 .contato{
     color: white;
     background-color: #c51111;
@@ -23,4 +40,20 @@ body{
 }
 .img-mario-luigi{
     height: 500px;
+}
+
+.caixa-video{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+video{
+    width: 100vw;
+}
+.mascara{
+     height: 100%;
+     width: 100%;
+     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 10%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+     position: fixed;
+     top: 0;
 }
