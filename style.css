@@ -5,21 +5,6 @@
 }
 body{
     display:flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 100px;
-    height: 100vh;
-}
-.caixa-principal{
-    width: 40%;
-}
-.caixa-video{
-    position: fixed;
-    z-index: -1;
-    top: 0;
-}
-video{
-    width: 100vw;
 }
 .logo-mario{
     height: 180px;
